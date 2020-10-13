@@ -1,3 +1,3 @@
 # hunt
 
-Product Hunt clone based on (https://www.solidsail.com/courses/product-hunt)[https://www.solidsail.com/courses/product-hunt].
+Product Hunt clone based on [SolidSail course](https://www.solidsail.com/courses/product-hunt).
