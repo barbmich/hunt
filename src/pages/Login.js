@@ -9,6 +9,7 @@ import {
   IonRow,
   IonCol,
   IonRouterLink,
+  IonLoading,
 } from "@ionic/react";
 import NavHeader from "../components/Header/NavHeader";
 import { toast } from "../utils/toast";
@@ -47,6 +48,7 @@ const Login = (props) => {
   return (
     <IonPage>
       <NavHeader title="Log In" />
+      <IonLoading message={"Please wait..."} isOpen={busy} />
       <IonContent>
         <IonItem lines="full">
           <IonLabel position="floating">Email</IonLabel>
