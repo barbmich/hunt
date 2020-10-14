@@ -28,7 +28,7 @@ function useFormValidation(initialState, validate, action) {
     }));
   }
 
-  function handleSubmit(event) {
+  function handleSubmit() {
     const validationErrors = validate(values);
     setErrors(validationErrors);
     setSubmitting(true);
